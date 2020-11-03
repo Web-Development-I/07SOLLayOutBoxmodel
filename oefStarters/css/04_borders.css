@@ -1,0 +1,24 @@
+.alert {
+  padding: 0.75rem 1.25rem;
+  margin: 1em 40px;
+}
+
+.alert-info {
+  border: 6px solid darkblue;
+  background-color: lightblue;
+}
+
+.alert-danger {
+  border-left: 6px solid red;
+  background-color: lightpink;
+}
+
+.different-borders {
+  padding: 5px;
+  border-style: solid;
+  /* border-left-width: 25px;
+  border-right-width: 10px;
+  border-top-width: 40px;
+  border-bottom-width: 20px; */
+  border-width: 40px 10px 20px 25px;
+}

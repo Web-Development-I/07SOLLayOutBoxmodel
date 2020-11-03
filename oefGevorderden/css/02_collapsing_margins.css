@@ -1,0 +1,20 @@
+body {
+  font-size: 1.5rem;
+}
+
+#first-div {
+  background-color: lightgreen;
+  padding: 2px;
+}
+
+#parent-div {
+  background-color: lightblue;
+  /* padding: 2px; */
+  margin-top: 25px;
+}
+
+#child-div {
+  background-color: lightcoral;
+  padding: 2px;
+  margin-top: 25px;
+}

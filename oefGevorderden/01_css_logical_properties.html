@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Logical Properties</title>
+    <style>
+      td,
+      th {
+        border: 1px solid #000;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Logical Properties</h2>
+    <p>In hoofdstuk 9 kan je lezen over de nieuwe logische properties:</p>
+    <table>
+      <tr>
+        <th>Huidig</th>
+        <th>Nieuwe</th>
+      </tr>
+      <tr>
+        <td><code>*-top</code></td>
+        <td><code>*-block-start</code></td>
+      </tr>
+      <tr>
+        <td><code>*-bottom</code></td>
+        <td><code>*-block-end</code></td>
+      </tr>
+      <tr>
+        <td><code>*-left</code></td>
+        <td><code>*-inline-start</code></td>
+      </tr>
+      <tr>
+        <td><code>*-right</code></td>
+        <td><code>*-inline-end</code></td>
+      </tr>
+    </table>
+    <p>waarbij het sterretje staat voor margin, padding of border.</p>
+    <p>
+      Gebruik de <i>Developer Tools</i> om te weten te komen welke margin en
+      padding, uitgedrukt in <i>em</i> en/of <i>pixels</i>, het ingebouwde
+      stijlblad van je browser (user agent stylesheet) gebruikt voor de
+      onderstaande elementen.
+    </p>
+    <p>
+      Maak hiervoor gebruik van het bestand <b>speakers.html</b> (uit les 3) en
+      vul de door jou gevonden waarden in, in onderstaande tabel.
+    </p>
+    <p>
+      Opmerking: de font-size voor het body-element in de ingebouwde stylesheet
+      is 16 pixels.
+    </p>
+
+    <table>
+      <tr>
+        <th>element</th>
+        <th>margin-block</th>
+        <th>margin-inline</th>
+        <th>padding-block</th>
+        <th>padding-inline</th>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>8px</td>
+        <td>8px</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>header, nav, section, main en footer</code></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>h1</code></td>
+        <td>0.67em/21.44px</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>p</code></td>
+        <td>1em/16px</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>h2</code></td>
+        <td>0.83em/19.920px</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>1em/16px</td>
+        <td>0</td>
+        <td>0</td>
+        <td>padding-left: 40px</td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>figure</code></td>
+        <td>1em/16px</td>
+        <td>40px</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>figcaption</code></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    </table>
+  </body>
+</html>
